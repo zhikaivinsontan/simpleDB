@@ -1,0 +1,8 @@
+{
+	"userName": "Aman",
+	"selectFields": ["student_name", "puid"],
+	"fromTable": "students",
+	"wherePredicates": [
+		
+	]
+}

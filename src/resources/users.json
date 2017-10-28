@@ -1,0 +1,19 @@
+[{
+		"userName": "Aman",
+		"subSchemas": {
+			"students": ["puid", "student_name","gpa"]
+		}
+	},
+	{
+		"userName": "Spencer",
+		"subSchemas": {
+			"students": ["puid"]
+		}
+	},
+	{
+		"userName": "Sam",
+		"subSchemas": {
+			"teachers": ["id","teacher_name","rating"]
+		}
+	}
+]

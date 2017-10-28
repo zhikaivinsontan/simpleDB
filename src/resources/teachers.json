@@ -1,0 +1,37 @@
+{
+	"schema": {
+		"name": "teachers",
+		"fields": [{
+				"fieldName": "id",
+				"type": "INTEGER"
+			},
+			{
+				"fieldName": "teacher_name",
+				"type": "STRING"
+			},
+			{
+				"fieldName": "rating",
+				"type": "DOUBLE"
+			}
+		]
+	},
+	"constraints": [{
+		"type": "UNIQUE",
+		"fieldName": "id",
+		"predicates": null
+	},
+	{
+		"type": "CHECK",
+		"fieldName": "id",
+		"predicates": [{
+			"fieldName": "id",
+			"rhs": 0,
+			"operator": "GTE"
+		}]
+	},
+	{
+		"type": "NOT_NULL",
+		"fieldName": "id",
+		"predicates": null
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	"userName": "Aman",
+	"selectFields": ["student_name", "puid"],
+	"fromTable": "students",
+	"wherePredicates": [
+		[{
+			"fieldName": "puid",
+			"rhs": 1,
+			"operator": "EQ"
+		},
+		{
+			"fieldName": "puid",
+			"rhs": 6,
+			"operator": "EQ"
+		}],
+		[{
+			"fieldName": "puid",
+			"rhs": 2,
+			"operator": "EQ"
+		},
+		{
+			"fieldName": "gpa",
+			"rhs": 3.9,
+			"operator": "LTE"
+		}]
+	]
+}

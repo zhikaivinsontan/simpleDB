@@ -1,0 +1,8 @@
+{
+	"userName": "Sam",
+	"selectFields": ["gg","teacher_name","rating"],
+	"fromTable": "teachers",
+	"wherePredicates": [
+		
+	]
+}
